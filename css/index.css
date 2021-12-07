@@ -1,0 +1,40 @@
+
+  body {
+    background-color:#C3B9EC;
+    font-family:fantasy;
+    display: flex;
+    justify-content:center
+  }
+  .main-container {
+    background-color: #E2DCFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    width: 80%;
+    padding-top: 6em;
+  }
+  .nombre{
+      margin-top: 2em;
+  }   
+  .forma{
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #C3B9EC;
+    margin: 3px;
+  }
+  .agregar-btn{
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #C3B9EC;
+    margin: 3px;
+  }
+    
