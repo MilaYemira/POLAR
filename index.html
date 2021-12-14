@@ -9,24 +9,26 @@
 </head>
 <body>
     <div class="main-container">
-        <div>
-            <div>Nombre</div>
-            <input type="text" id="nombre">
+        <div class="form-container">
+            <div class="input-container">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="nombre" id="nombre">
+            </div>
+            <div class="input-container">
+                <label for="forma">Forma</label>
+                <select id="forma">
+                    <option value="cuadrado">Cuadrado</option>
+                    <option value="circulo">Circulo</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label for="color">Color</label>
+                <input type="color" id="color">
+            </div>
+            <button id="save-btn">AGREGAR</button>
         </div>
-        <div>
-            <div>Forma</div>
-            <select id="forma">
-                <option value="cuadrado">Cuadrado</option>
-                <option value="circulo">Circulo</option>
-            </select>
-        </div>
-        <div>
-            <div>Color</div>
-            <input type="color" id="color">
-        </div>
-        <button id="agregar-btn">AGREGAR</button>
-        <div id="datos"></div>
-        <script src="js/index.js"></script>  
+        <div class="figuras" id="figuras"></div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
